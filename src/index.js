@@ -9,7 +9,7 @@ const bitacoraRoutes = require("./routes/bitacora");
 const saveRoutes = require("./routes/save");
 
 const app = express();
-const port = process.env.PORT;
+const port = process.env.PORT || 9000;
 
 //const IP = "192.168.0.18";
 //const IP = "192.168.3.36";
